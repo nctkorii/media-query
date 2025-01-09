@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10{
+    height: 400px;
+    width: 400px;
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.container{
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    /*display: inline-block;*/
+    height: 100%;
+    width: 400px;
+}
+
+.choice1{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/xDGQ9dbLmMpeEqhiWayMRB-1200-80.jpg');
+}
+
+.choice1 img{
+    width:100%;
+}
+
+.choice2{
+    background-image: url('https://i.pinimg.com/736x/8f/8b/56/8f8b56b7e2646be4b2a1f885e8903746.jpg');
+}
+
+.choice3{
+    background-image: url('https://flagloft.com/wp-content/uploads/2024/09/Chick-fil-A-White-Script-Logo-on-PMS-186-Large_master-scaled.jpg');
+}
+
+.choice4{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/a95d27188799603.Y3JvcCwxMDA3LDc4OCwxOTcsMA.jpeg');
+}
+.choice5{
+    background-image: url('https://logocreator.io/wp-content/uploads/2023/11/Wendys-Emblem-1024x576.png');
+}
+
+.choice6{
+    background-image: url('https://wallpapers.com/images/hd/original-dunkin-donuts-logo-jq36q7774cczqng8.jpg');
+}
+
+.choice7{
+    background-image: url('https://logocreator.io/wp-content/uploads/2023/11/SubWayNewLogo.png');
+}
+
+.choice8{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/09/4e/3b/26/domino-s-pizza-blue-downs.jpg')
+}
+
+.choice9{
+    background-image: url('https://www.hatchwise.com/wp-content/uploads/2024/02/image-1-1024x751.jpeg');
+}
+
+.choice10{
+    background-image: url('https://lazamia.com/wp-content/uploads/2023/01/Popeyes-logo.png')
+}
+
+
+
+
+
+#title{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 600px)  { 
+    .container{
+        flex-direction: column;
+        left: 0;
+        right: 0;
+    }
+    body{
+        background-color: black;
+        #title{
+            color: white
+        }
+    }
+
+}
