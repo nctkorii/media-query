@@ -11,8 +11,10 @@ body{
     text-align: center;
     background-size: cover;
     background-position: center;
-    color: white;
-    margin-bottom: 20px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 100px;
 }
 
 .container{
@@ -21,6 +23,38 @@ body{
     width: 100%;
     display: grid;
 }
+
+.footer{
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+.footer-content h2 {
+    margin-bottom: 10px;
+}
+.footer-content p, .footer-content ul {
+
+    line-height: 1.6;
+}
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
 
 
 
@@ -84,9 +118,9 @@ body{
     }
     body{
         background-color: black;
-        #title{
-            color: white
-        }
+    }
+    #title{
+        color: white
     }
 
 }
@@ -99,6 +133,10 @@ body{
     }
     body{
         background-color: red;
+    }
+
+    #title{
+        color: white
     }
 }
 
