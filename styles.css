@@ -14,7 +14,7 @@ body{
     color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -123,6 +123,12 @@ body{
         color: white
     }
 
+    .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10{
+        color:  gray;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+    }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -130,6 +136,11 @@ body{
         grid-template-columns: auto auto;
         flex-direction: column;
         display: grid;
+    }
+    .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10{
+        color:  white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
     body{
         background-color: red;
